@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Daftar Akun</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="daftar.css">
+</head>
+<body>
+        
+    <!-- navbar -->
+    <nav>
+        <div class="luar">
+            <div class="logo"><a href="index.html">CoCo.</a></div>
+            <div class="menu">
+                <ul>
+                    <li><a href="index.html">Tentang Kami</a></li>
+                    <li><a href="layanan.html">Layanan</a></li>
+                    <li><a href="produk.html">Produk</a></li>
+                    <li><a href="daftar.html" class="btn-hijau">Daftar</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- daftar -->
+    <section id="daftar">
+        <div class="wrapper">
+            <div class="sales-box">
+                <div class="title">DAFTAR AKUN</div>
+                <form action="regis">
+                    <div class="data-user">
+                        <div class="input-box">
+                            <span class="details">Nama Lengkap</span>
+                            <input type="text" placeholder="Masukan Nama Lengkap" required>
+                        </div>
+                        <div class="input-box">
+                            <span class="details">Nomor Telepon</span>
+                            <input type="text" placeholder="Masukan Nomor Telepon" required>
+                        </div>
+                        <div class="input-box">
+                            <span class="details">Username</span>
+                            <input type="text" placeholder="Masukan Username" required>
+                        </div>
+                        <div class="input-box">
+                            <span class="details">Email</span>
+                            <input type="email" placeholder="Masukan Email" required>
+                        </div>
+                        <div class="input-box">
+                            <span class="details">Password</span>
+                            <input type="password" placeholder="Masukan Password" required>
+                        </div>
+                        <div class="input-box">
+                            <span class="details">Ulangi Password</span>
+                            <input type="password" placeholder="Masukan Ulang Password" required>
+                        </div>
+
+                        <div class="data-diri">
+                            <input type="radio" name="gender" id="dot-1">
+                            <input type="radio" name="gender" id="dot-2">
+                            <input type="radio" name="gender" id="dot-3">
+                            <span class="gender-title">Jenis Kelamin</span>
+                            <div class="category">
+                                <label for="dot-1">
+                                    <span class="dot one"></span>
+                                    <span class="gender">Laki-Laki</span>
+                                </label>
+                                <label for="dot-2">
+                                    <span class="dot two"></span>
+                                    <span class="gender">Perempuan</span>
+                                </label>
+                                <label for="dot-3">
+                                    <span class="dot three"></span>
+                                    <span class="gender">Rahasia</span>
+                                </label>
+                            </div>
+                        </div>
+                        <div class="input-box">
+                            <span class="details">Jenis Hewan Peliharaan</span>
+                            <div class="top">
+                                <input class="checkbox" type="checkbox" id="kucing">
+                                <label class="check" for="kucing">Kucing</label>
+                            </div>
+                            <div>
+                                <input class="checkbox" type="checkbox" id="anjing">
+                                <label class="check" for="anjing">Anjing</label>
+                            </div>
+                            <div>
+                                <input class="checkbox" type="checkbox" id="kelinci">
+                                <label class="check" for="kelinci">Kelinci</label>
+                            </div>
+                            <div>
+                                <input class="checkbox2" type="checkbox" id="hamster">
+                                <label class="check" for="hamster">Hamster</label>
+                            </div>
+                        </div>
+                        <div class="input-box">
+                            <span class="details">Umur Hewan</span>
+                            <select class="select" name="umurhewan" required>
+                                <option>0-6 bulan</option>
+                                <option>7 bulan - 2 tahun</option>
+                                <option>3 - 6 tahun</option>
+                                <option>7 - 10 tahun</option>
+                                <option>11 - 14 tahun</option>
+                                <option>15+ tahun</option>
+                            </select>
+                        </div>
+                        <div class="input-box">
+                            <span class="details">Tambah Foto Hewan</span>
+                            <label class="button-img">
+                                <input type="file" name="gambar" required>
+                            </label>
+                        </div>
+                        <div class="button">
+                            <input type="submit" value="Daftar">
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- footer -->
+    <footer>
+        <div class="luar">
+            <div class="footer">
+                <div class="footer-section">
+                    <div class="kontak">
+                        <h3>Mari Berkolaborasi!</h3>
+                        <p class="daftar">Kami membuka kesempatan untuk berkolaborasi dengan segala pihak, <br> demi merevolusi teknologi kesehatan <br> hewan di Indonesia dan Asia Tenggara!</p>
+                        <a href=""><img src="daftar.png"></a>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <div class="alamat">
+                        <h3>CoCo HQ</h3>
+                        <h5>PT CoCo Solusi Digital</h5>
+                        <p><img src="icons8-place-marker-16.png"> Jl. Jakarta II Blok AA3, Loa Bakung, Samarinda, Kalimantan Timur</p>
+                        <p><img src="icons8-phone-16.png"> +62 5312 3456 7891</p>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <div class="sosmed">
+                        <h3>Sosial Media</h3>
+                        <a href=""><img src="icons8-whatsapp-48.png"></a>
+                        <a href=""><img src="icons8-instagram-48.png"></a>
+                        <a href=""><img src="icons8-facebook-48.png"></a>
+                    </div>
+                </div>
+            </div>
+            <div id="copyright">
+                <div class="luar">
+                    &copy; 2023. <b>CoCo Pet Shop</b> All Rights Reserved.
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
